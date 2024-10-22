@@ -1,0 +1,394 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./Inter.ttf");
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url("./Lexend-Black.ttf");
+}
+body {
+    background-color: white;
+}
+header {
+    text-align: end;
+    font-weight: 10;
+    
+}
+#company {
+    margin-left: 180px;
+    background-color: #F0F7EB;
+    border-radius: 22px;
+    border-color: #F0F7EB;
+    width: 95px;
+    height: 35px;
+    border-width: 0;
+    font-family: "Inter" , sans-serif;
+    color: #092256;
+    font-size: 16px;
+    padding: 8px 12px 8px 12px;
+}
+#blog {
+    border-width: 0cap;
+    background-color: white;
+    padding-left: 20px;
+    color: #3E588E;
+    font-weight: 500;
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+}
+#contact {
+    padding-left: 20px;
+    border-width: 0cap;
+    background-color: white;   
+    color: #3E588E;
+    font-weight: 500;
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+}
+#sign {
+    padding-left: 200px;
+    border-width: 0cap;
+    background-color: white;
+    font-weight: 500;
+    font-family: "Inter" , sans-serif;
+    color: #16493F;
+    font-size: 16px;
+}
+#get {
+    padding-left: 5px;
+    width: 120px;
+    height: 50px;
+    border-width: 0cap;
+    background-color: #16493F;
+    border-radius: 10px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 400px;
+    font-size: 16px;
+}
+.leftone {
+    
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 587px;
+    height: 370px;
+}
+h1 {
+    color: #16493F;
+    font-size: 56px;
+    font-family: "Lexend" , sans-serif;
+    font-weight: 800;
+}
+h2 {
+    color:  #4E4E4E;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Inter" , sans-serif;
+}
+#im1 {
+   margin-left: -25px;
+    border: none;
+    background: none;
+}
+#im2 {
+    
+    border: none;
+    background: none;
+}
+#im1 img {
+    width: 193px;
+    height: 68px;
+    
+}
+#im2 img {
+    width: 193px;
+    height: 68px;
+    margin-left: 10px;
+}
+#two {
+    display: flex;
+    background-color: #FFFFFF;
+}
+.right img {
+    
+    width: 899px;
+    height: 811px;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+
+}
+h3 {
+    color: #16493F;
+    font-family: "Lexennd" , sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 150px;
+}
+h4 {
+    font-family: "Inter" , sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #3E588E;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+#start {
+    background-color: #16493F;
+    color: #FFFFFF;
+    margin-left: 150px;
+    width: 155px;
+    height: 60px;  
+    border-radius: 12px;
+    font-size: 18px;   
+    font-family: "Inter" , sans-serif;
+    font-weight: 500;
+}
+#pagetwo {
+    display: flex;
+    background-color: rgb(252, 250, 250);
+}
+.airtime {
+    background-color: #FFFFFF;
+    width: 403px;
+    height: 383px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    margin-top: 40px;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+}   
+.airtime img {
+    width: 369px;
+    height: 144px;
+    top: 250px;
+    left: 18.5px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 15px;
+}
+
+h5 {
+    color: #11453B;
+    padding-left: 25px;
+    font-family: "Lexend" , sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+p {
+    margin-top: -20px;
+    text-align: left;
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.96px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: -10px;
+    color: #092256;
+}
+.electricity {
+    width: 403px;
+    height: 383px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .electricity img {
+    width: 400px;
+    height: 192px;
+    margin-top: 65px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+ }
+ h6 {
+    font-family: "Lexend" , sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #11453B;
+    
+ }
+
+#my {
+    color: #092256;
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.96px;
+    margin-left: 30px;
+    margin-top: -10px;
+    text-align: left;
+ }
+
+ .last {
+    background-color: white;
+    display: flex;
+    background-color: rgb(252, 250, 250);
+ }
+ #onee {
+    width: 402.5px;
+    height: 408px;
+    margin-left: 700px;
+    margin-top: 80px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+ }
+#myy {
+    color:#11453B;
+    font-family:" Lexend" , sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36.4px;
+    letter-spacing: -0.015em;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-left: 0px;
+    
+ }
+ #onee img {
+    width: 329px;
+    height: 169px;
+    margin-top: 50px;
+    margin-left: 39.5px;
+    gap: 0px;
+    opacity: 0px;
+
+ }
+ #myyy {
+    color: #092256;
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.96px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+ }
+#twoo {
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+#you {
+    color: #11453B;
+    font-family: "Lexend" , sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#twoo img {
+    width: 403px;
+    height: 179px;
+    top: 229px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 70px;
+}
+#youu {
+    margin-left: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.96px;
+    text-align: left;
+    color: #092256;
+    margin-top: 20px;
+}
+#pagethree {
+    background-color: #C4E9FD26;
+    margin-top: 150px;
+    width: 1728px;
+    height: 1097px;
+
+
+}
+#topp {
+    color: #16493F;
+    font-family: "Lexend" , sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44.8px;
+    text-align: center;
+    padding-top: 100px;
+}
+#toppp {
+    font-family: "Inter" , sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.57px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    padding-bottom: 120px;
+}
+#middle img {
+    width: 402px;
+    height: 594px;
+    margin-left: 150px;
+   
+}
+
+#pagefour img{
+    width: 1292px;
+    height: 898px;
+    margin-top: 30px;
+    margin-left: 218px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#pagefive img {
+    width: 878px;
+    height: 812px;
+    margin-top: 180px;
+    margin-left: 420px;
+    gap: 64px;
+    opacity: 0px;
+    background-color: rgb(252, 250, 250);
+}
+#pagesix img {
+    width: 1925px;
+    height: 321px;
+    top: 4954px;
+    margin-left: -15px;
+    
+    gap: 0px;
+    opacity: 0px;
+
+}
+#pageseven img {
+    background-color: #FFFFFF;
+    width: 1741px;
+    height: 375px;
+    padding: 0px 2px 4px 2px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-left: 0px;
+}
